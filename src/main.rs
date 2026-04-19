@@ -11,7 +11,7 @@ fn main() {
 
     loop {
         print!("Please input your guess: ");
-        io::stdout().flush();
+        let _ = io::stdout().flush();
         let mut guess = String::new();
 
         io::stdin()
